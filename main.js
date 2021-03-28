@@ -1,5 +1,5 @@
 var speech= window.webkitSpeechRecognition;
-var recognition=new SpeechRecognition();
+var recognition=new speech();
 function start(){
     document.getElementById("textbox").innerHTML="";
     recognition.start();
